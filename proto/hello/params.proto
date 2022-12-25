@@ -1,0 +1,12 @@
+syntax = "proto3";
+package founderdao.hello.hello;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "gtihub.com/founderDAO/hello/x/hello/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
